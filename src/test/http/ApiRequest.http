@@ -1,0 +1,9 @@
+GET http://localhost:8070/api/extra/naver/translate
+Content-Type: application/json
+Accept: application/json
+
+{
+  "text": "반갑습니다."
+}
+
+###

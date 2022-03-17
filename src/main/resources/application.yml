@@ -1,0 +1,37 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/erp?serverTimezone=Asia/Seoul
+    username: miris
+    password: miris
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      #      naming:
+      #        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      show-sql: true
+
+server:
+  port: 8070
+
+# NAVER API
+naver-api:
+  client-id: hh51psuy4kAQsNLpns_R
+  client-secret: o4Ji18D03t
+
+# KAKAO API
+kakao-api:
+  client-id: 362671d3e7ef5d78a18fa0b75005fbc1
+  client-secret:
+
+#Google API
+google-api:
+  client-id: 961417860930-2n137ah6b47i07di7gkj9hjrj2obfvcn.apps.googleusercontent.com
+  client-secret:
+
+api:
+  client-key:
+    kakao: 362671d3e7ef5d78a18fa0b75005fbc1
+    naver: hh51psuy4kAQsNLpns_R
+    google: 961417860930-2n137ah6b47i07di7gkj9hjrj2obfvcn.apps.googleusercontent.com
